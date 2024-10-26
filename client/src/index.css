@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+:root, html, body {
+    background: transparent;
+}
+
+pre {
+  /* background-color: transparent !important; Adjust this to your preferred background color */
+  padding: 1rem; /* Add padding */
+  border-radius: 0.5rem; /* Optional: for rounded corners */
+  overflow: auto; /* Allow scrolling if content is too large */
+  color: #f8f8f2; /* Text color, adjust as needed */
+}
+

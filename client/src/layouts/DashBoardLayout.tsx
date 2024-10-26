@@ -2,7 +2,6 @@ import { useAuth } from "@clerk/clerk-react";
 import { useEffect } from "react";
 import { Outlet, useNavigate } from "react-router-dom";
 import Sidebar from "../components/Sidebar";
-import { BsSend } from "react-icons/bs";
 
 const DashBoardLayout = () => {
   const { isLoaded, userId } = useAuth();
